@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.8.0",
+    "applicationType": "microservice",
+    "baseName": "oauth2demo",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjA4ZmJmYzAwNGJiNzFhY2E1Y2Y3OWUxMjRmZTIwNzcwZWZiZTBhYjQyYzk1NDJlMDQ2OWRiNmI3OTg5MmU1ODZhOGU4ZDI3MDc3NzlhMjk4NzEwN2Q5N2UwYjA2MDNhMzEwYThkNjNiMDYyYTUwZDQxODhlMGMwZmJlZjY0MGQ=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "sk"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
